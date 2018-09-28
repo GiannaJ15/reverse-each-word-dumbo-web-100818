@@ -1,6 +1,5 @@
 reverse_each_word(string)
-stringArray = []
-stringArray << string.split(" ")
+stringArray = string.split(" ")
 reversedarray= []
 stringArray.collect do |word|
   reversedarray << word.pop
