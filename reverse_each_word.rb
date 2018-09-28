@@ -7,4 +7,5 @@ stringArray.collect do |word|
   reversedarray.join
 end 
 end 
+end 
   
