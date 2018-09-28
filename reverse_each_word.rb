@@ -6,6 +6,6 @@ stringArray.collect do |word|
   reversedarray << word.pop
   reversedarray.join
 end 
-end 
+puts reversedarray
 end 
   
