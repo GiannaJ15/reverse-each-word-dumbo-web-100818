@@ -5,6 +5,6 @@ stringArray.collect do |word|
   reversedarray << word.reverse
   
 end 
-return reversedarray.join
+return reversedarray.join(" ")
 end 
   
